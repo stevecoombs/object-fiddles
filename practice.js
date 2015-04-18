@@ -80,11 +80,21 @@ Instead, console.log your whole backPack object and then check out the console. 
 
 //Create another 'me' object with the following properties name, age, height, gender, married, eyeColor, hairColor. Fill those properties in with the appropriate values.
 
-  //Code Here
+var me = {
+  name: 'Steve',
+  age: 26,
+  height: '6\'2\"',
+  gender: 'Male', 
+  married: 'Yes', 
+  eyeColor: 'Brown',
+  hairColor: 'Brown'
+}
 
 //Now, loop through your object and alert every value. *Tyler --> 24 --> 6'0 --> Male, etc etc
 
-  //Code Here
+for (var key in me) {
+  alert(me[key]);
+}
 
 
 
@@ -96,11 +106,19 @@ Instead, console.log your whole backPack object and then check out the console. 
 
 //Create an Object called 'album' with 5 keys named different song titles that you make up, with the values being the length of each song.
 
-  //Code Here
+var album = {
+  troy: '3:50',
+  butt: '2:40',
+  soup: '1:15',
+  barnes: '3:00',
+  abed: '5:46'
+}
 
 //Now, loop through your album object alerting every song title individually.
 
-  //Code Here
+ for (var i in album) {
+  alert(i);
+ }
 
 
 
